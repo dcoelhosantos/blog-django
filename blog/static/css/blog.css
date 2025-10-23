@@ -1,7 +1,7 @@
 .page-header {
     background-color: #C25100;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
 }
 
@@ -39,9 +39,40 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+.fab-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #C25100;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.fab-button:hover {
+    background-color: #e46000;
+    transform: scale(1.1);
+}
+
+.read-more {
+    display: inline-block;
+    color: #C25100;
+    font-weight: bold;
+    text-decoration: none;
 }
